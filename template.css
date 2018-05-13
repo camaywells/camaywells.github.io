@@ -6,6 +6,10 @@ html {
     height: 100%;
   }
   body {
+     color: #484848;
+     width: 800px;
+     height: 100%;
+     font-family:Georgia,sans-serif;
      width: 100%, center;
      height: 100%;
      background: url(img/background_2.jpeg) no-repeat center center fixed;
@@ -23,15 +27,16 @@ html {
   }
 
   header {
-      background-color: ;
-      padding: 5px;
-      font-size: ;
-      display: block;
-      font
+    font-family:Georgia,sans-serif;  
+    background-image: ;
+    padding: 30px;
+    font-size: 18pt;
+    line-height: 20px;
+    font-style: normal;
+    display: block;
+    text-align: center;
   }
-  h2 {
-      text-align: left;
-  }
+
   
   nav {
     float: left;
@@ -56,16 +61,27 @@ nav li a {
     padding: 12px 18px 8px 18px;
     vertical-align: middle;
   }
-      
+  h1 {
+    font-size: 30pt;
+    text-align: center;
+}
+h2 {
+    font-size: 18pt;
+    text-align: center;
+} 
+h3 {
+    font-size: 18pt;
+    text-align: left;
+} 
   }
   a {
       color: ;
   }
   section {
-      width: 73%;
-      display: inline-block;
-      float: left;
-      padding-bottom: 10%;
+    width: 100%;
+    display: inline-block;
+    float: left;
+    padding-top: 20px
   }
   aside {
       width: 17%;

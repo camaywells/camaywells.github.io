@@ -7,7 +7,7 @@ body {
     width: 800px;
     height: 100%;
     font-family:Georgia,sans-serif;
-    background: url("img/office_background.jpg") no-repeat center center fixed;
+    background: url("img/Office-gossip.jpg") no-repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -23,7 +23,9 @@ body {
 }
 
 header {
-    font-family:Georgia,sans-serif;  
+    font-family:Georgia,sans-serif;
+    color: white;
+    text-shadow: 2px 2px #484848;  
     background-image: ;
     padding: 30px;
     font-size: 18pt;
@@ -43,11 +45,20 @@ h2 {
 }
 
 .list-intro {
-    background-color: aquamarine;
+    display: inline-block;
+    color:white;
+    text-align: center;  
+    line-height: 30pt;
+    font-size: 14pt;
+    text-shadow: 1px 1px #484848;
 }
 
 .list {
-    background-color: tomato;   
+    color: white;
+    text-align: left;  
+    line-height: 30pt;
+    font-size: 14pt;
+    text-shadow: 2px 2px #484848;
 }
 
 .last-line {
